@@ -28,6 +28,13 @@ Make sure you have the following installed:
    npm install
    ```
 
+### Development
+
+To run the application in development mode:
+
+   ```bash
+   npm run dev
+   ```
 
 ### Compile and Minify for Production
 
