@@ -37,6 +37,7 @@
         <v-date-input
           v-model="taskForm.date"
           label="Due Date"
+          prepend-icon=""
           prepend-inner-icon="$calendar"
           :min="minDate"
           :rules="[(v) => !!v || 'Due Date is required']"
